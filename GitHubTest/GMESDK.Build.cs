@@ -7,7 +7,7 @@ using System.IO;
 public class GMESDK : ModuleRules
 {
 #if WITH_FORWARDED_MODULE_RULES_CTOR
-	public GMESDK(ReadOnlyTargetRules Target) : base(Target)
+	//public GMESDK(ReadOnlyTargetRules Target) : base(Target)
 #else
     public GMESDK(TargetInfo Target)
 #endif
